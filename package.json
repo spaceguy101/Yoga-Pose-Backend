@@ -1,0 +1,22 @@
+{
+  "name": "yogapose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/posenet": "^2.2.1",
+    "@tensorflow/tfjs-node": "^1.7.4",
+    "canvas": "^2.6.1",
+    "ffmpeg-extract-frames": "^2.0.2",
+    "ffmpeg-probe": "^1.0.6",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^9.0.0",
+    "jsonfile": "^6.0.1",
+    "walk-sync": "^2.1.0"
+  }
+}
